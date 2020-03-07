@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic'
 const DynamicComponentWithNoSSR = dynamic(
   () => {
     import('@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js')
-    import('pimello')
+    import('farilari')
   },
   {
     ssr: false
@@ -22,7 +22,7 @@ const Home = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <DynamicComponentWithNoSSR />
-      <pimello-cms></pimello-cms>
+      <fari-lari></fari-lari>
       <main className={styles.main}>
         <h1 className='title'>
           Welcome to <a href='https://nextjs.org'>Next.js!</a>
