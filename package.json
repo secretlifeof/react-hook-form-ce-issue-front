@@ -1,0 +1,23 @@
+{
+  "name": "next-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:server": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.2",
+    "next": "9.2.2",
+    "preact": "^10.3.3",
+    "preact-compat": "^3.19.0",
+    "preact-ssr-prepass": "^1.0.1",
+    "react": "^16.13.0",
+    "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "@zeit/next-preact": "^0.1.0"
+  }
+}
