@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.4.2",
-    "next": "9.2.2",
+    "next": "9.3.2",
     "preact": "^10.3.3",
     "preact-compat": "^3.19.0",
     "preact-ssr-prepass": "^1.0.1",
